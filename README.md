@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://thibault.collard-bovy.com/">
+  <a href="https://github.com/Thibault-collard/CV-portfolio">
     <img src="./src/images/portfolio/cv-portfolio.png" alt="Logo" height="300">
   </a>
 
@@ -10,10 +10,8 @@
     CV Portfolio to display my resume, my portfolio and my contact details to recruiters and potential clients
 		<br />
     <br />
-    <a href='https://thibault.collard-bovy.com/'>View Online Demo</a>
-    
+    <a href="https://thibault.collard-bovy.com/">View Online Demo</a>
     <a href="https://github.com/Thibault-collard/CV-portfolio/issues">Report a Bug</a>
-
     <a href="https://github.com/Thibault-collard/CV-portfolio/pulls">Suggest a modification</a>
   </p>
 </p>
