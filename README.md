@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<br />
+<p align="center">
+  <a href="https://github.com/Thibault-collard/CV-portfolio">
+    <img src="./src/images/portfolio/cv-portfolio.png" alt="Logo" height="300">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center"> CV Portfolio </h3>
 
-## Available Scripts
+  <p align="center">
+    CV Portfolio to display my resume, my portfolio and my contact details to recruiters and potential clients
+		<br />
+    <br />
+    <a href="https://thibault.collard-bovy.com/">View Online Demo</a>
+    á
+    <a href="https://github.com/Thibault-collard/CV-portfolio/issues">Report a Bug</a>
+    á
+    <a href="https://github.com/Thibault-collard/CV-portfolio/pulls">Suggest a modification</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About this projet
 
-### `npm start`
+The most important part of this project is to present my previous works in coding:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React/TS
+- HTML Template for Ikonik 
+- Sendgrid to send emails
+- Gcloud to host website
+- Github and Docker to deploy the website
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+With this version, you'll be able to : 
+- Watch my resume
+- Contact me
+- Check all my previous works
 
-### `npm test`
+<!-- GETTING STARTED -->
+## Start the project ...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To quickly checkout this project, you don't need any credentials, just click on this link: https://thibault.collard-bovy.com/
 
-### `npm run build`
+### Prerequisite
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In addition to having an adequate programming environment, it is necessary to have notions in React and basic html to fully understand this project. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repo
+```sh
+git clone https://github.com/Thibault-collard/thibault.collard-bovy.git
+```
+2. Instal NPM packages
+```sh
+npm install
+```
+4. Build and launch the server
+```sh
+npm run start
+```
+To replicate this project, you don't need any type of credentials or API Key
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- USAGE EXAMPLES -->
+## Skills Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Transform HTML template into React components
+- Create Responsive Design interface
+- Connect E-mail provider to send email
+- Use audio player to play song
+- Deploy to Google Cloud
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LICENSE -->
+## Licence
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This folder and all of the code it contains is freely accessible, without the need for attribution. But remember that copying without understanding will not advance your skills.
 
-## Learn More
+<!-- CONTACT -->
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For all requests: thibault.collard@gmail.com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
