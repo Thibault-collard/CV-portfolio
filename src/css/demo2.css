@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 @import url('https://fonts.googleapis.com/css?family=Varela+Round:400,700');
 
-
 /* Home Title Bg Color */
 .home-text-container {
     background:black;
@@ -142,6 +141,9 @@ button,
     vertical-align: baseline;
     border-radius: 0.25rem;
 }
+.badge:hover{
+	color: white;
+}
 .badge-dark{
 	color: #fff;
     background-color: #212529;
@@ -188,20 +190,4 @@ button,
 }
 .menu-icon:hover{
 	color: white;
-}
-.btn-third{
-	background-color: black; /* Green */
-	border: none;
-	color: white;
-	padding: 1vw 2vw;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1vw;
-	font-weight: 400;
-	border-radius: 5%;
-}
-.btn-third:hover{
-	color: white;
-	background-color: #001428;
 }

@@ -5,7 +5,7 @@ import '../index.css'
 
 const Navbar: React.FunctionComponent = () => {
     const parentRef = useRef();
-    const song =  require("../audio/skip-the-use-birds-are-born-to-fly.mp3")
+    const song =  require("../audio/song.mp3")
     const logoFull = require("../images/home/logo-tcb-full.png")
     const logoPart = require("../images/home/logo-tcb-icon.png")
     const audioMute = require("../images/home/mute-audio.png")

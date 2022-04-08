@@ -60,7 +60,7 @@ const Contact: React.FunctionComponent = () => {
                                     
                                     <div className="boxed">
                                     
-                                        <div className="row">
+                                        <div className="row row-contact">
 
                                             <div className="col-xs-8 col-sm-4">
 

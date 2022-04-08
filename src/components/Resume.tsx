@@ -3,6 +3,9 @@ import '../index.css'
 
 const Resume: React.FunctionComponent = () => {
     const CV = require("../documents/CV-TCOLLARDBOVY.pdf")
+    const recoAlban = require('../documents/lettre-reco-alban-leandri.pdf')
+    const recoAnael = require('../documents/lettre-reco-anael-laskri.pdf')
+
   return (
     <Fragment>
         <div id="page" className="hfeed site">
@@ -172,43 +175,48 @@ const Resume: React.FunctionComponent = () => {
                                                 
                                                 <div className="skill-unit">
                                                     <h4>Languages</h4>
-                                                    <div><span className="badge badge-skills">Javascript</span>
-                                                        <span className="badge badge-skills"> Typescript </span>
-                                                        <span className="badge badge-skills"> HTML </span>
-                                                        <span className="badge badge-skills"> CSS </span>
-                                                        <span className="badge badge-skills">Python</span>
-                                                        <span className="badge badge-skills">Ruby</span>
-                                                        <span className="badge badge-skills">C</span>
+                                                    <div><a href='https://devdocs.io/javascript/' className="badge badge-skills">Javascript</a>
+                                                        <a href='https://devdocs.io/typescript/' className="badge badge-skills"> Typescript </a>
+                                                        <a href='https://devdocs.io/html/' className="badge badge-skills"> HTML </a>
+                                                        <a href='https://devdocs.io/css/' className="badge badge-skills"> CSS </a>
+                                                        <a href='https://devdocs.io/python~3.9/' className="badge badge-skills">Python</a>
+                                                        <a href='https://devdocs.io/ruby~3/' className="badge badge-skills">Ruby</a>
+                                                        <a href='https://devdocs.io/c/' className="badge badge-skills">C</a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="skill-unit">
                                                     <h4>Frameworks</h4>
-                                                    <div><span className="badge badge-skills"> Jquery </span>
-                                                    <span className="badge badge-skills">Express</span>
-                                                    <span className="badge badge-skills">RoR</span>
-                                                    <span className="badge badge-skills">React</span>
-                                                    <span className="badge badge-skills">Django</span>
-                                                    <span className="badge badge-skills">Flask</span>
-                                                    <span className="badge badge-skills">Angular JS</span>
-                                                    <span className="badge badge-skills">Vue JS</span>
+                                                    <div><a href='https://devdocs.io/jquery/' className="badge badge-skills"> Jquery </a>
+                                                    <a href='https://devdocs.io/express/' className="badge badge-skills">Express</a>
+                                                    <a href='https://devdocs.io/rails~7.0/' className="badge badge-skills">RoR</a>
+                                                    <a href='https://devdocs.io/react/' className="badge badge-skills">React</a>
+                                                    <a href='https://devdocs.io/django~4.0/' className="badge badge-skills">Django</a>
+                                                    <a href='https://devdocs.io/flask~2.0/' className="badge badge-skills">Flask</a>
+                                                    <a href='https://devdocs.io/vue~3/' className="badge badge-skills">Vue JS</a>
+                                                    <a href='https://devdocs.io/jest/' className="badge badge-skills">Jest</a>
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="skill-unit">
                                                     <h4>Databases</h4>
                                                     <div>
-                                                        <span className="badge badge-skills">MongoDB</span>
-                                                        <span className="badge badge-skills">MySQL</span>
+                                                        <a href='https://www.mongodb.com/fr-fr/nosql-explained' className="badge badge-skills">MongoDB</a>
+                                                        <a href='https://www.postgresql.org/' className="badge badge-skills">postgreSQL</a>
+                                                        <a href='https://docs.docker.com/' className="badge badge-skills">Docker</a>
+                                                        <a href='https://aws.amazon.com/fr/' className="badge badge-skills">AWS</a>
+                                                        <a href='https://console.cloud.google.com/?hl=fr' className="badge badge-skills">Gcloud</a>
+                                                        <a href='https://devcenter.heroku.com/' className="badge badge-skills">Heroku</a>
+
                                                     </div>
                                                 </div>
                                                 
                                                 <div className="skill-unit">
                                                     <h4>Design</h4>
                                                     <div>
-                                                        <span className="badge badge-skills">Illustrator</span>
-                                                        <span className="badge badge-skills">Indesign</span>
-                                                        <span className="badge badge-skills">Photoshop</span>
+                                                        <a href='https://www.adobe.com/fr/products/illustrator.html' className="badge badge-skills">Illustrator</a>
+                                                        <a href='https://www.adobe.com/fr/products/indesign.html' className="badge badge-skills">Indesign</a>
+                                                        <a href='https://www.adobe.com/fr/products/photoshop.html' className="badge badge-skills">Photoshop</a>
                                                     </div>
                                                 </div>
                                                 <div className="section-title center">
@@ -219,19 +227,19 @@ const Resume: React.FunctionComponent = () => {
                                                 
                                                 <div className="skill-unit">
                                                     <h4>English (TOEIC Level)</h4>
-                                                    <div className="lang"> Listening and Reading </div>
+                                                    <div className="lang"> <a href='https://www.ef.fr/tests-anglais/toeic/speaking/'>Listening and Reading</a> </div>
                                                     <div className="bar" data-percent="89">
                                                         <div className="progress" style={{width:"89%"}}>
                                                             <span> 885/990 </span>    
                                                         </div>
                                                     </div>
-                                                    <div className="lang"> Speaking </div>
+                                                    <div className="lang"> <a href='https://www.ets.org/toeic/test-takers/speaking-writing/about/content-format/'>Speaking </a></div>
                                                     <div className="bar" data-percent="77">
                                                         <div className="progress" style={{width:"77%"}}>
                                                             <span> 7/9 </span>    
                                                         </div>
                                                     </div>
-                                                    <div className="lang"> Writing </div>
+                                                    <div className="lang"> <a href='https://www.ets.org/toeic/test-takers/speaking-writing/about/content-format/'>Writing </a> </div>
                                                     <div className="bar" data-percent="88">
                                                         <div className="progress" style={{width:"88%"}}>
                                                             <span> 8/9 </span>    
@@ -255,24 +263,31 @@ const Resume: React.FunctionComponent = () => {
                                                 </div>
                                                 
                                                 <div className="testo">
-                                                    <h3>Alban Leandri</h3>
-                                                    <h5>Growth hacker at Lemonads</h5>
-                                                </div>
-                                                
-                                                <div className="testo">                                                    
-                                                    <h3>Frank Perrier</h3>
-                                                    <h5>Founder of Idaos</h5>
-
+                                                    <a href={recoAlban}>   
+                                                        <h3>Alban Leandri</h3>
+                                                        <h5>Growth hacker at Lemonads</h5>
+                                                    </a>
                                                 </div>
                                                 
                                                 <div className="testo">
-                                                    <h3>Anael Laskri</h3>
-                                                    <h5>Ex-Designer UX at N'joys</h5>
+                                                    <a href='https://linkedin.com/in/franck-perrier-idaos-digital-academy'>                                                    
+                                                        <h3>Frank Perrier</h3>
+                                                        <h5>Founder of Idaos</h5>
+                                                    </a>
                                                 </div>
                                                 
-                                                <div className="testo">                                                    
-                                                    <h3>Gaelle Le Floch</h3>
-                                                    <h5>Strategic Insight Director at Kantar Worldpanel</h5>
+                                                <div className="testo">
+                                                    <a href={recoAnael}> 
+                                                        <h3>Anael Laskri</h3>
+                                                        <h5>Ex-Designer UX at N'joys</h5>
+                                                    </a>
+                                                </div>
+                                                
+                                                <div className="testo">
+                                                    <a href='https://linkedin.com/in/gaëlle-le-floch-83324233'>                                                    
+                                                        <h3>Gaelle Le Floch</h3>
+                                                        <h5>Strategic Insight Director at Kantar Worldpanel</h5>
+                                                    </a>
                                                 </div>
 
 
