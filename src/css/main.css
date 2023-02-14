@@ -662,17 +662,19 @@ textarea,
 	width:60px
   }
   .menu-link{
-	margin: 0.6vh 13vh 0vh 13vh;
+	margin: -0.2vh 13vh 0vh 13vh;
   }
   .text-intro{
 	padding-bottom:.8vw;
-	font-size:1.5vw;
+	margin-top: 5vh;
+	font-size:2rem;
 	font-style:italic;
 	font-weight:300;
 	text-align:justify
   }
   .pic-home{
-	width: 60vh
+	width: 39vh;
+	max-width: 82%
   }
   
 .btn-third{
@@ -739,9 +741,6 @@ textarea,
 	.btn-third{
 		font-size: 2vw;
 	}
-	.row-contact{
-		margin-left: 72px;
-	}
   }
   /* phone landscape */
   @media only screen and (max-device-width: 991px) and (max-device-height: 500px)  { 
@@ -767,10 +766,7 @@ textarea,
 		.media-grid .media-box{
 			width: 87vw;
 			height: auto;
-		}  
-	.row-contact{
-		margin-left: 4vw;
-	}
+		}
   }
   
   .home-logo {

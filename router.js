@@ -6,15 +6,12 @@ const sgMail = require('@sendgrid/mail');
 console.log(process.env.SENDGRID_API_KEY)
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-router.get('/api/test', function (req,res){
-  res.send('lol')
-})
 router.post('/api/sendEmail', function(req, res) {
   const msg = {
-    to: req.body.email,
+    to: 'thibault.collard@gmail.com',
     from: 'thibault.collard@gmail.com',
     subject: `${req.body.name} sent you a message on your website`,
-    text: req.body.message,
+    text: `${req.body.message} from email contact : ${req.body.email}`,
   };
   sgMail
   .send(msg)

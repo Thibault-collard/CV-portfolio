@@ -5,6 +5,8 @@ const Resume: React.FunctionComponent = () => {
     const CV = require("../documents/CV-TCOLLARDBOVY.pdf")
     const recoAlban = require('../documents/lettre-reco-alban-leandri.pdf')
     const recoAnael = require('../documents/lettre-reco-anael-laskri.pdf')
+    const recoCarlos = require('../documents/lettre-reco-carlos-rodriguez.pdf')
+    const thib_pic = require("../images/home/thibault.png")
 
   return (
     <Fragment>
@@ -24,7 +26,15 @@ const Resume: React.FunctionComponent = () => {
                                 <article className="page hentry">
 
                                     <header className="entry-header">
-                                        <h2 className="entry-title">Junior Software Developer</h2>
+                                    <div className="row">
+                                        <div className="col-sm-3 col-lg-5">
+                                            <img className='pic-home' src={thib_pic} alt='tcb'/>
+                                        </div>
+                                        <div className="col-sm-9 col-lg-7">
+                                            <div className='text-intro'>I am a developer, passionate about building excellent software that improves the lives of those around me. What would you do if you had a software expert available at your fingertips?</div>
+                                        </div>
+                                    </div>
+                                        <h2 className="entry-title">Fullstack Software Developer</h2>
                                         <h4 className="section-search center"> ~ Looking for a full-time position in the Geneva region ~</h4>
                                         <p className='center'><a href={CV} target="_blank" rel="noreferrer" className="downloadCV"><i className="pw-icon-doc-alt"></i> Download CV</a></p>
                                     </header>
@@ -43,8 +53,18 @@ const Resume: React.FunctionComponent = () => {
                                                 </div>
 
                                                 <div className="event">
+                                                    <h4>Developer Fullstack</h4>
+                                                    <h5>MCR Solutions (Jun 2022 - Jan 2023)</h5>
+                                                    <p> Within the international division of MCR, whose clients are pharmaceutical laboratories, 
+                                                        my missions consisted of the implementation of a mobile application for inventory
+                                                        management on Windev mobile, the creation of new features on Angular JS, React 
+                                                        and Windev with management of SQL queries, bug fixes and customer support management  
+                                                    </p>
+                                                </div>
+
+                                                <div className="event">
                                                     <h4>Python Developer for Growth Hacking</h4>
-                                                    <h5>Lemonads (Sep 2021 - March 2022)</h5>
+                                                    <h5>Lemonads (Sep 2021 - Mar 2022)</h5>
                                                     <p> Lemonads wanted to collect data from publisher websites and send <br/>
                                                     ultra-targeted prospecting emails. This solution had to be accessible, <br/>
                                                     100% autonomous, operate 24/7 and provide good quality data without <br/>
@@ -180,8 +200,7 @@ const Resume: React.FunctionComponent = () => {
                                                         <a href='https://devdocs.io/html/' className="badge badge-skills"> HTML </a>
                                                         <a href='https://devdocs.io/css/' className="badge badge-skills"> CSS </a>
                                                         <a href='https://devdocs.io/python~3.9/' className="badge badge-skills">Python</a>
-                                                        <a href='https://devdocs.io/ruby~3/' className="badge badge-skills">Ruby</a>
-                                                        <a href='https://devdocs.io/c/' className="badge badge-skills">C</a>
+                                                        <a href='https://doc.pcsoft.fr/' className="badge badge-skills">Windev</a>
                                                     </div>
                                                 </div>
                                                 
@@ -189,8 +208,8 @@ const Resume: React.FunctionComponent = () => {
                                                     <h4>Frameworks</h4>
                                                     <div><a href='https://devdocs.io/jquery/' className="badge badge-skills"> Jquery </a>
                                                     <a href='https://devdocs.io/express/' className="badge badge-skills">Express</a>
-                                                    <a href='https://devdocs.io/rails~7.0/' className="badge badge-skills">RoR</a>
                                                     <a href='https://devdocs.io/react/' className="badge badge-skills">React</a>
+                                                    <a href='https://devdocs.io/angularjs~1.8//' className="badge badge-skills">Angular Js</a>
                                                     <a href='https://devdocs.io/django~4.0/' className="badge badge-skills">Django</a>
                                                     <a href='https://devdocs.io/flask~2.0/' className="badge badge-skills">Flask</a>
                                                     <a href='https://devdocs.io/vue~3/' className="badge badge-skills">Vue JS</a>
@@ -202,7 +221,7 @@ const Resume: React.FunctionComponent = () => {
                                                     <h4>Databases</h4>
                                                     <div>
                                                         <a href='https://www.mongodb.com/fr-fr/nosql-explained' className="badge badge-skills">MongoDB</a>
-                                                        <a href='https://www.postgresql.org/' className="badge badge-skills">postgreSQL</a>
+                                                        <a href='https://hsqldb.org/web/hsqlDocsFrame.html/' className="badge badge-skills">HSQL</a>
                                                         <a href='https://docs.docker.com/' className="badge badge-skills">Docker</a>
                                                         <a href='https://aws.amazon.com/fr/' className="badge badge-skills">AWS</a>
                                                         <a href='https://console.cloud.google.com/?hl=fr' className="badge badge-skills">Gcloud</a>
@@ -263,33 +282,24 @@ const Resume: React.FunctionComponent = () => {
                                                 </div>
                                                 
                                                 <div className="testo">
+                                                    <a href={recoCarlos}>                                                    
+                                                        <h3>Carlos Rodriguez</h3>
+                                                        <h5>Founder of MCR Solutions</h5>
+                                                    </a>
+                                                </div>
+
+                                                <div className="testo">
                                                     <a href={recoAlban}>   
                                                         <h3>Alban Leandri</h3>
                                                         <h5>Growth hacker at Lemonads</h5>
                                                     </a>
                                                 </div>
-                                                
-                                                <div className="testo">
-                                                    <a href='https://linkedin.com/in/franck-perrier-idaos-digital-academy'>                                                    
-                                                        <h3>Frank Perrier</h3>
-                                                        <h5>Founder of Idaos</h5>
-                                                    </a>
-                                                </div>
-                                                
                                                 <div className="testo">
                                                     <a href={recoAnael}> 
                                                         <h3>Anael Laskri</h3>
                                                         <h5>Ex-Designer UX at N'joys</h5>
                                                     </a>
                                                 </div>
-                                                
-                                                <div className="testo">
-                                                    <a href='https://linkedin.com/in/gaëlle-le-floch-83324233'>                                                    
-                                                        <h3>Gaelle Le Floch</h3>
-                                                        <h5>Strategic Insight Director at Kantar Worldpanel</h5>
-                                                    </a>
-                                                </div>
-
 
                                             </div>
 

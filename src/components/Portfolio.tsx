@@ -24,7 +24,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                     <div className="portfolio-items media-grid masonry" data-layout="masonry" data-item-width="360">
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={herobay} alt="portfolio-post"/>
+                                                                <img src={herobay} alt="portfolio-post" style={{maxWidth:'100%',height: 'auto'}}/>
                                                                     <a href="https://herobay.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a>                                                            </div>
                                                             <div className="media-cell-desc">
                                                                 <h3>Superheroes Store
@@ -45,7 +45,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={jitter_test} alt="portfolio-post"/>                                                                               
+                                                                <img src={jitter_test} alt="portfolio-post" style={{maxWidth:'100%',height: 'auto'}}/>                                                                               
                                                                     <a href="https://test-jitter.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a>                                                            
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -65,7 +65,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={spider_controller} alt="portfolio-post"/>
+                                                                <img src={spider_controller} alt="portfolio-post" style={{maxWidth:'100%',height: 'auto'}}/>
                                                                 <a href="https://spiders-control.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a>                                                            
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -87,7 +87,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={cross_quantum} alt="portfolio-post"/>
+                                                                <img src={cross_quantum} alt="portfolio-post" style={{maxWidth:'100%',height: 'auto'}}/>
                                                                 <a href="https://test-crossquantum.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a> 
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -107,7 +107,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>                                            
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={wing} alt="portfolio-post"/>
+                                                                <img src={wing} alt="portfolio-post" style={{maxWidth:'100%',height: 'auto'}}/>
                                                                 <a href="https://test-wing.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a>
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -125,7 +125,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={njoys} alt="portfolio-post"/>
+                                                                <img src={njoys} style={{maxWidth:'100%',height: 'auto'}} alt="portfolio-post"/>
                                                                 <a href="https://unsciernotemporarisxndc.herokuapp.com/" className="mask" target="_blank" rel="noreferrer"></a> 
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -144,7 +144,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={game_golem} alt="portfolio-post"/>
+                                                                <img src={game_golem} style={{maxWidth:'100%',height: 'auto'}} alt="portfolio-post"/>
                                                                 <a href="https://Thibault-collard.github.io" className="mask" target="_blank" rel="noreferrer"></a> 
                                                             </div>
                                                             <div className="media-cell-desc">
@@ -163,7 +163,7 @@ const Portfolio: React.FunctionComponent = () => {
                                                         </div>
                                                         <div className="media-cell media format-link hentry">
                                                             <div className="media-box">
-                                                                <img src={nectar} alt="portfolio-post"/>
+                                                                <img src={nectar} style={{maxWidth:'100%',height: 'auto'}} alt="portfolio-post"/>
                                                                 <a href="https://nectar-project.herokuapp.com/artworks" className="mask" target="_blank" ></a> 
                                                             </div>
                                                             <div className="media-cell-desc">

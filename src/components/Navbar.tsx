@@ -31,7 +31,6 @@ const Navbar: React.FunctionComponent = () => {
                                             <Link to="/"><img className="logo-full" alt="logo-img" style={{maxWidth:"inherit",width:"100px",height:"auto"}}src={logoFull}/></Link>
                                             <Link to="/"><img className="logo-part" alt="logo-img" src={logoPart}/></Link>
                                                 <div className="menu-link">
-                                                    <li><Link to="/">Home</Link></li>
                                                     <li><Link to="/resume">Resume</Link></li>
                                                     <li><Link to="/portfolio">Portfolio</Link></li>
                                                     <li><Link to="/contact">Contact</Link></li>

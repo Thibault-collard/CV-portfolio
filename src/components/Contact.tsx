@@ -60,9 +60,9 @@ const Contact: React.FunctionComponent = () => {
                                     
                                     <div className="boxed">
                                     
-                                        <div className="row row-contact">
+                                        <div className="row">
 
-                                            <div className="col-xs-8 col-sm-4">
+                                            <div className="col-xs-12 col-sm-4">
 
                                                 <div className="fun-fact">
                                                     <img src={locationIcon} alt="location"/>
@@ -71,7 +71,7 @@ const Contact: React.FunctionComponent = () => {
 
                                             </div>
                                             
-                                            <div className="col-xs-8 col-sm-4">
+                                            <div className="col-xs-12 col-sm-4">
 
                                                 <div className="fun-fact">
                                                     <img src={phoneIcon} alt="phone"/>
@@ -80,7 +80,7 @@ const Contact: React.FunctionComponent = () => {
 
                                             </div>
                                             
-                                            <div className="col-xs-8 col-sm-4">
+                                            <div className="col-xs-12 col-sm-4">
 
                                                 <div className="fun-fact">
                                                     <img src={emailIcon} alt="email"/>
