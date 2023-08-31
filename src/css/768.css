@@ -87,8 +87,7 @@
 		}
 	
 	/* MEDIA BOX */
-	.media-grid .media-cell {
- 		float: left; width: 50%;
+	.media-grid .media-cell {width: 45%;
 		}
     
 	

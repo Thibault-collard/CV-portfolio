@@ -53,6 +53,17 @@ const Resume: React.FunctionComponent = () => {
                                                 </div>
 
                                                 <div className="event">
+                                                    <h4>React/Python Developer & Solo-founder</h4>
+                                                    <h5>FlashPoster (Since May 2023)</h5>
+                                                    <p> No more spending hours researching topics and writing blog posts.
+                                                        FlashPoster supports you at every step of your content creation process: 
+                                                        get hundreds of relevant topics, write quality content optimized for SEO
+                                                        and publish your article in just a few clicks. Ready to experience the true 
+                                                        potential of AI writing ? Start your free trial at flashposter.ai 
+                                                    </p>
+                                                </div>
+
+                                                <div className="event">
                                                     <h4>Developer Fullstack</h4>
                                                     <h5>MCR Solutions (Jun 2022 - Jan 2023)</h5>
                                                     <p> Within the international division of MCR, whose clients are pharmaceutical laboratories, 
@@ -75,7 +86,7 @@ const Resume: React.FunctionComponent = () => {
 
 
                                                 <div className="event">
-                                                    <h4> Founder </h4>
+                                                    <h4> Solo-founder </h4>
                                                     <h5>Golden Muse (Sep 2020 - Jun 2021)</h5>
                                                     <p> I created this marketing agency to help those who have the vision of what <br/>
                                                     they want but do not know how to transcribe it technically in an efficient way. 
